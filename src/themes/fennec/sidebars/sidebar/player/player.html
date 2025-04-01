@@ -1,9 +1,11 @@
 <div :class="['player-wrapper', positionClass]">
+
 	<!-- TODO configurable: take up less width for dead players -->
 	<div :class="['player', positionClass]">
 		<HealthBar :player="player" :position="position" />
 
-		<DeadIcon :player="player" :position="position" />
+        <PlayerIcon :player="player" :position="position" />
+        <DeadIcon :player="player" :position="position" />
 
 		<Health :player="player" :position="position" />
 		<ObserverSlot :player="player" :position="position" />

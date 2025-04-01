@@ -2,6 +2,7 @@ import { positionClass } from '/hud/helpers/position-class.js'
 import AdditionalStats from '/hud/sidebars/sidebar/player/additional-stats/additional-stats.vue'
 import Adr from '/hud/sidebars/sidebar/player/adr/adr.vue'
 import DeadIcon from '/hud/sidebars/sidebar/player/dead-icon/dead-icon.vue'
+import PlayerIcon from '/hud/sidebars/sidebar/player/player-icon/player-icon.vue'
 import Deaths from '/hud/sidebars/sidebar/player/deaths/deaths.vue'
 import Equipment from '/hud/sidebars/sidebar/player/equipment/equipment.vue'
 import FocusedPlayerHighlight from '/hud/sidebars/sidebar/player/focused-player-highlight/focused-player-highlight.vue'
@@ -28,6 +29,7 @@ export default {
 		AdditionalStats,
 		Adr,
 		DeadIcon,
+		PlayerIcon,
 		Deaths,
 		Equipment,
 		FocusedPlayerHighlight,

@@ -3,7 +3,7 @@
 		<div class="inner">
 			<img
 				:class="['logo', positionClass, { '--active': logoImageLoaded }]"
-				:src="`/hud/team-logos/${team.name}.png`"
+				:src="`/hud/img/team-logos/${team.name}.png`"
 				alt=""
 				@error="logoImageLoaded = false"
 				@loaded="logoImageLoaded = true"

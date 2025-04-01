@@ -1,0 +1,19 @@
+.player-icon {
+	padding: 1rem;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.player-icon.--left {
+	grid-area: start/start/equipment/health;
+}
+
+.player-icon.--right {
+	grid-area: health/health/end/end;
+}
+
+img {
+	height: 3.25rem;
+}

@@ -27,6 +27,7 @@
 .player.--left {
 	grid-template-columns:
 		var(--sidebar-start-and-end-width)
+		var(--sidebar-start-and-end-width)
 		var(--sidebar-health-width)
 		var(--sidebar-observer-slot-width)
 		var(--sidebar-money-width)
@@ -44,6 +45,7 @@
 
 .player.--right {
 	grid-template-columns:
+		var(--sidebar-start-and-end-width)
 		var(--sidebar-start-and-end-width)
 		var(--sidebar-primary-and-secondary-width)
 		var(--sidebar-round-kills-width)
